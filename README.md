@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 Traf – Intelligent Finance Management Platform
+Traf is a modern, full-featured finance management platform built with Next.js, React.js, Supabase, Prisma, Inngest, Arcjet, and Gemini AI API. It empowers users not only to track their income and expenses, but also gain meaningful insights, automation, and security — making it much more than just another expense tracker.
 
-## Getting Started
+🔥 Features
+💼 Smart Account Management
+Add multiple accounts for different financial scopes (e.g., personal, business).
 
-First, run the development server:
+Set a default account and switch accounts seamlessly.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📈 Visual Dashboards
+Intuitive pie and bar charts showcasing income vs. expenses.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Real-time updates for visual financial clarity.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🧠 AI-Powered Automation
+Gemini AI API enables receipt scanning to auto-add transactions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Monthly financial summaries with AI-generated insights delivered via email.
 
-## Learn More
+Intelligent filtering and categorization of expenses.
 
-To learn more about Next.js, take a look at the following resources:
+🔁 Recurring Transactions
+Set up recurring income/expenses — automatically added to your ledger on due dates.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📨 Notifications & Reports with Inngest
+Get notified via email when budgets are nearly exceeded.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Receive monthly reports with personalized AI commentary.
 
-## Deploy on Vercel
+🛡️ Security & Rate Limiting
+Arcjet integration ensures API protection, abuse prevention, and enhanced security.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📋 Transaction Management
+Bulk delete transactions with ease.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Filter by date, category, account, or amount.
+
+🛠️ Tech Stack
+Tech	Purpose
+Next.js	: Frontend framework with routing & SSR
+React.js : UI development
+Supabase :	Auth and database
+Prisma :	ORM for working with Supabase/Postgres
+Inngest :	Background jobs for emailing/reporting
+Arcjet :	Rate limiting and security
+Gemini AI :	AI for insights and receipt scanning
+shadcn/ui :	Beautifully styled and accessible UI
