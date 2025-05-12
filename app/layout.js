@@ -4,6 +4,7 @@ import header from "@/components/header";
 import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
+import PageTransition from "@/components/page-transition";
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -21,8 +22,10 @@ export default function RootLayout({ children }) {
           {/* <AnimatedBackground /> */}
         {/*header*/}
         <Header />
-        <main className="min-h-screen ">
-        {children}
+        <main className="min-h-screen">
+          <PageTransition>
+            {children}
+          </PageTransition>
         </main>
         <Toaster richColors />
         <footer className="bg-blue-100 flex justify-center items-center py-12">

@@ -32,19 +32,19 @@ const HeroSection = () => {
     },[])
 
   return (
-    <div className='pb-20 px-4 flex justify-center items-center pt-40'>
+    <div className='pb-20 px-4 flex justify-center items-center pt-40 animate-fade-in'>
       <div className='container mx-auto text-center'>
-        <h1 className='text-5xl md:text-8xl lg:text-[105px] pb-6 font-extrabold gradient-title'>
+        <h1 className='text-5xl md:text-8xl lg:text-[105px] pb-6 font-extrabold gradient-title animate-slide-up'>
             Manage Your Finances <br /> with Intelligence
         </h1>
-        <p className='text-xl mt-2 text-gray-400 mb-8 max-w-2xl mx-auto'>An AI-powered financial management platform that helps you track, analyze, and optimize your spending with real-time insights.
+        <p className='text-xl mt-2 text-gray-400 mb-8 max-w-2xl mx-auto animate-slide-up delay-100'>An AI-powered financial management platform that helps you track, analyze, and optimize your spending with real-time insights.
         </p>
-        <div className='flex justify-center'>
+        <div className='flex justify-center animate-slide-up delay-200'>
             <Link href='/dashboard'>
             <Button size="lg" className="px-8 mb-3">Get Started</Button>
             </Link>
         </div>
-        <div className='hero-image-wrapper'>
+        <div className='hero-image-wrapper animate-slide-up delay-300'>
             <div ref={imageRef} className='hero-image'>
                 <Image 
                 src="/Banner.jpg" 
